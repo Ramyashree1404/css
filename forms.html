@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <input type="text" placeholder="enter name" maxlength="15" required>
+        <input type="password" placeholder="enter password" minlength="8" required>
+        <hr><br>
+        <input type="email" placeholder="enter email" required>
+        <input type="number" placeholder="enter mobile number" max="10">
+        <hr><br>
+        <label>DOJ</label>
+        <input type="date" >
+        <label>Login time</label>
+        <input type="datetime-local">
+        <hr><br>
+        <label>Aadhar card:</label>
+        <input type="file">
+        <input type="url">
+        <hr><br>
+        <input type="search">
+        <input type="tel">
+        <hr><br>
+        <textarea placeholder="address" cols="40" ></textarea>
+        <hr><br>
+        <label>gender</label>
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+        </select>
+
+        <label>skills</label>
+        <select multiple>
+            <option>java</option>
+            <option>javascript</option>
+            <option>sql</option>
+            <option>html</option>
+
+        </select>
+        <hr><br>
+        <input type="submit" value="login">
+        <input type="reset" value ="clear">
+        <hr><br>
+        
+
+    <h2> Radio buttons checkbox</h2>
+    <label>gender</label>
+    <input type="radio" name="gender" id="male"><label for="male">male</label>
+    <input type="radio" name="gender" id="female"><label for="female">female</label>
+    <input type="radio" name="gender" id="others"><label for="others">others</label>
+
+    <hr>
+    <label>skills</label>
+    <input type="checkbox" id="java"><label for="java">java</label>
+    <input type="checkbox" id="js"><label for="js">javascript</label>
+    <input type="checkbox" id="sql"><label for="sql">sql</label>
+   
+
+<br>
+
+<select multiple>
+    <optgroup label="non-veg">
+        <option>chiken</option>
+        <option>kabab</option>
+        <option>biriyani</option>
+        <option>chiken lolipop</option>
+        <option>leg piece</option>        
+    </optgroup>
+    <optgroup label="veg">
+        <option>paneer</option>
+        <option>dal kichidi</option>
+        <option>chitranna</option>
+        <option>dosa</option>
+        <option>idli</option>
+
+    </optgroup>
+</select>
+<br><br>
+
+<input type="text" placeholder="college name" list="clg">
+<datalist id="clg">
+    <option>sln college of engineering</option>
+    <option>bitm college of engineering</option>
+    <option>nitte college of architecture</option>
+    <option>govt college of engineering</option>
+    <option>novodaya college of engineering</option>
+    <option>east west college of engineering</option>
+    <option>saptagiri college of engineering</option>
+    <option>acharya college of engineering</option>
+    <option>dayanand saga college of engineering</option>
+</datalist>
+
+</form>
+<br>
+<!-- <form action="">
+    <input type="text" name="user" placeholder="username">
+    <input type="password" name="pass" placeholder="passwaord">
+    <hr>
+    <label>gender</label>
+    <input type="radio" name="gender" ><label>male</label>
+    <input type="radio" name="gender"><label>female</label>
+    <input type="radio" name="gender"><label>other</label>
+    <hr>
+</form> -->
+    
+</body>
+</html>
